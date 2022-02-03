@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple set up for React app with Webpack bundler",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateofay2099/react-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "boilerplate"
+  ],
+  "author": "mateofay2099",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateofay2099/react-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mateofay2099/react-webpack-boilerplate#readme"
+}
