@@ -18,7 +18,7 @@ To start a React application using this template just:
 2. Change the project name and data in the [package.json](package.json)
 3. Set the title for your app in [public/index.html](public/index.html)
 4. Install dependencies by running `npm install`
-5. Remove the hidden `.git` file in the root directory and run git init to initialize your new repository
+5. Remove the hidden `.git` file in the root directory and run `git init` to initialize your new repository
 
 ## Webpack config
 
