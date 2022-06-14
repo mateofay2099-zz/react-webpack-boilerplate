@@ -6,7 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: '[name]_[chunkhash].bundle.js',
+    chunkFilename: '[id].[chunkhash].js',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -29,6 +30,10 @@ module.exports = {
       {
         test: /\.css$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
+      {
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
       },
       {
         test: /\.(jpe?g|png|gif|svg|woff|woff2)$/i,
